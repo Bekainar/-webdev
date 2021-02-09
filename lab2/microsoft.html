@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #microsoft{
+            width: 40px;
+            position: absolute;
+            left: 136px;
+        }
+        .microsoft{
+            position: absolute;
+            margin: auto;
+            left: 183px;
+            top: 15px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: darkgrey;
+            font-size: 25px;
+        }
+        #365{
+            position: absolute;
+            left: 153px;
+            top: 16px;
+            font-family: monospace;
+            color: darkgrey;
+            font-weight: bold;
+        }
+        #main{
+            position: static;
+            margin-top: 60px;
+            margin-left: 114px;
+            width: 85%;
+            margin-right: 106px;
+        }
+        h1{
+            position: absolute;
+            text-align: left;
+            top: 299px;
+            left: 226px;
+            font-size: 34px;
+            font-family: monospace;
+            font-weight: 100;
+        }
+        #basic{
+            position: absolute;
+            text-align: left;
+            top: 344px;
+            left: 226px;
+            font-size: 19px;
+            font-family: monospace;
+            font-weight: 100;
+        }
+        .info1 {
+            position: absolute;
+            text-align: left;
+            top: 453px;
+            left: 226px;
+            font-size: 19px;
+            font-family: monospace;
+            font-weight: 100;
+            color: white;
+            background-color: black;
+            padding: 18px;
+            cursor: pointer;
+        }
+        .info2 {
+            cursor: pointer;
+            position: absolute;
+            text-align: left;
+            top: 470px;
+            left: 430px;
+            font-size: 19px;
+            font-family: monospace;
+            font-weight: 100;
+            color: black;
+        }
+        #bottom1{
+            position:relative;
+            left: 15px;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .articles {
+            margin-top: 100px;
+            display: flex;
+            padding-left: 55px;
+            padding-right: 70px;
+
+
+        }
+        .article1, .article2, .article3, .article4 {
+            width: 327px;
+            height: 403px;
+            align-items: center;
+            text-align: center;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        h3 {
+            font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 37px;
+            padding: 1px 12px 2px 0;
+        }
+        .article1 a {
+            color: #005293;
+            font-weight: 600;
+        }
+        .article2 a {
+            color: #005293;
+            font-weight: 600;
+        }
+        .article3 a {
+            color: #005293;
+            font-weight: 600;
+        }
+        .article4 a {
+            color: #005293;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <img id="microsoft" src="microsoft.png">
+    <a class="microsoft" > <strong>Microsoft</strong></a>
+    <a id="365" style=" position: absolute;
+    left: 265px;
+    top: 17px;
+    font-family: monospace;
+    font-size: 22px;
+    margin-left: 56px;"> Microsoft 365   Office  Windows  Поддержка</a>
+    </div>
+    <div>
+        <img id="main" src="microsoft-main.png">
+        <h1><strong> Microsoft 365 </strong></h1>
+        <p id = "basic">
+        Приложения Office премиум, дополнительное облачное<br>
+            хранилище, продвинутые инструменты обеспечения<br>
+            безопасности - все в одной удобной подписке
+        </p>
+        <a class="info1"> До 6 человек </a>
+        <a class="info2" > Для 1 человека </a>
+    </div>
+    <div class="articles">
+        <div class="article1">
+            <img src="bottom1.png" width="303" height="170">
+            <h3>Microsoft Teams</h3>
+            <p>Общайтесь, проводите собрания, звоните и сотрудничайте.</p>
+            <a href="#">Подробнее</a>
+        </div>
+
+        <div class="article2">
+            <img src="bottom2.png" width="303" height="170">
+            <h3>Microsoft Edge</h3>
+            <p>Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+            <a href="#">Скачать</a>
+        </div>
+
+        <div class="article3">
+            <img src="bottom3.png" width="303" height="170">
+            <h3>Microsoft OneDrive</h3>
+            <p>Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+            <a href="#">Подробнее</a>
+
+        </div>
+
+        <div class="article4">
+            <img src="bottom4.png" width="303" height="170">
+            <h3>Обновление Windows 10</h3>
+            <p>Предоставляя новые функции, которые помогут вам успевать больше, общаться чаще и экономить время.</p>
+            <a href="#">Узнать больше</a>
+        </div>
+
+    </div>
+</body>
+</html>

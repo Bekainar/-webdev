@@ -1,0 +1,26 @@
+<div class="container">
+  <br>
+  <h3>Страница с контактами</h3>
+  <br>
+  <div class="share">
+    <a [href]="'https://telegram.me/share/url?url=' + sharelink " target="_blank">
+      <button class="btn btn-success">
+        Share
+     </button>
+    </a>
+
+    <button class="btn btn-success" >
+       <a class="linksh" href="{{linksh}}" target="_blank"> {{sharelink}}Link
+       </a>
+    </button>
+  </div>
+  <br>
+<div class="butshare">
+  <button class="btn btn-danger" (click)="carSelect('bmw')">BMW</button>
+  <button class="btn btn-success" (click)="carSelect('audi')">Audi</button>
+  <button class="btn btn-info" (click)="carSelect('mer')">Mercedes</button>
+</div>
+<div class="creator-pos">
+  <h2>Created by <a class="creator" href="https://www.instagram.com/coo1zh/" target="_blank"> Coolzh</a></h2>
+</div>
+</div>

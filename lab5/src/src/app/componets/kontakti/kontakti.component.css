@@ -1,0 +1,39 @@
+h3{
+  display: flex;
+  justify-content: center;
+}
+.share{
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin-right: 10px;
+}
+.butshare{
+  display: flex;
+  justify-content: center;
+}
+a{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  font-size: 20px;
+}
+.creator{
+  padding-left: 5px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.creator-pos{
+  margin-top: 350px;
+}
+.linksh{
+  color: white;
+  text-decoration: none;
+}
+

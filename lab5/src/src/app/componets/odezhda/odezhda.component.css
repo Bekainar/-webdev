@@ -1,0 +1,22 @@
+.namebrend{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.hoodie{
+  font-size: 20px;
+}
+.hoodphoto{
+  width: 200px;
+}
+.container{
+  background-color: #4d7c52;
+}
+.hoodlink{
+  color: white;
+  text-decoration: none;
+}
+.hoodlink:hover{
+  color: #dcbf44;
+}
+

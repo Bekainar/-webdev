@@ -1,0 +1,22 @@
+.krepos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.kreteri{
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.kreteri:hover{
+  color: black;
+  font-size: 25px;
+}

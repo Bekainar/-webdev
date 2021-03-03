@@ -1,0 +1,15 @@
+.pos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fon{
+  width: 1200px;
+  opacity: 100%;
+  transition: all 0.3s ease;
+}
+.fon:hover{
+  opacity: 95%;
+  width: 1100px;
+}
+

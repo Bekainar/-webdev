@@ -1,0 +1,27 @@
+.od1op{
+  display: flex;
+  width: 250px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+.od1op:hover{
+  margin-left: 15px;
+
+}
+.phbrend{
+  display: flex;
+}
+.ph{
+  width: 500px;
+}
+.op{
+  display: flex;
+  flex-direction: column;
+}
+.abc{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 300px;
+}
+
+

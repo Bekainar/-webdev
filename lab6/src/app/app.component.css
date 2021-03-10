@@ -1,0 +1,24 @@
+a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+a:hover{
+  color: red;
+}
+
+li{
+  list-style-type: none;
+}
+
+ui{
+  padding: 4px;
+}
+
+ul li{
+  font-size: 50px;
+  margin: 50px;
+  display: inline;
+}

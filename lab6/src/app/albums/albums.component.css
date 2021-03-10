@@ -1,0 +1,37 @@
+ul{
+  margin-left: 500px;
+}
+
+li{
+  color: black;
+  list-style-type: none;
+  transition: all 0.3s ease;
+  width: 830px;
+}
+li:hover{
+  transform: scale(1.1);
+}
+a{
+  color: black;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover{
+  color: red;
+}
+
+button{
+  outline: none;
+  background-color: white;
+  color: gray;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  color: red;
+}
